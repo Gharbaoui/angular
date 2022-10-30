@@ -30,3 +30,7 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 ## Notes
 ### Module
 is container for a group od related components
+### Components
+<ul>
+    <li> <strong> Create: </strong> a component </li>
+<ul>
