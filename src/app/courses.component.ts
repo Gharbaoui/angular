@@ -5,5 +5,5 @@ import { Component } from "@angular/core";
     templateUrl: './courses.component.html'
 })
 export class CoursesComponent{
-
+    header = "Welecom to courses component";
 };
