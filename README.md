@@ -30,9 +30,15 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 ## Notes
 ### Module
 is container for a group od related components
+
 ### Components
 <ul>
     <li> <strong> Create: </strong> a component </li>
     <li> <strong> Register: </strong> it in module </li>
     <li> <strong> Add: </strong> an element in an HTML markup </li>
+<ul>
+
+### Commands
+<ul>
+    <li> <strong> genrate component: </strong> ng g c --skip-tests component-name </li>
 <ul>
