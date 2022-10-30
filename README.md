@@ -33,4 +33,6 @@ is container for a group od related components
 ### Components
 <ul>
     <li> <strong> Create: </strong> a component </li>
+    <li> <strong> Register: </strong> it in module </li>
+    <li> <strong> Add: </strong> an element in an HTML markup </li>
 <ul>
