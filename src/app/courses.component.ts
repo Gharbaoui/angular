@@ -9,8 +9,7 @@ export class CoursesComponent{
     header = "Welecom to courses component";
     courses: Array<String>;
 
-    constructor() {
-        let service = new CoursesService();
+    constructor(private service: CoursesService) {
         this.courses = service.getCourses();
     }
 };
