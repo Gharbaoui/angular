@@ -1,4 +1,5 @@
 import { Component } from "@angular/core";
+import { CoursesService } from "./courses.service";
 
 @Component({
     selector: `courses`,
@@ -6,5 +7,10 @@ import { Component } from "@angular/core";
 })
 export class CoursesComponent{
     header = "Welecom to courses component";
-    courses = ["course-1", "course-2", "course-3"];
+    courses: Array<String>;
+
+    constructor() {
+        let service = new CoursesService();
+        this.courses = service.getCourses();
+    }
 };
